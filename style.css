@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:16px;
+}
+:root{
+    --clr-primary-cyan: hsl(179, 62%, 43%);
+    --clr-primary-bright-yellow: hsl(71, 73%, 54%);
+    --clr-neutral-light-gray:hsl(204, 43%, 93%);
+    --clr-neutral-grayish-blue:hsl(218, 22%, 67%);
+}
