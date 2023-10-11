@@ -94,3 +94,30 @@ body{
     font-size: 0.9rem;
     opacity: 70%;
 }
+
+/* style for mobile devices */
+@media screen and (max-width:950px) {
+    .container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:520px){
+    body{
+        height: 130vh;
+    }
+    .container{
+        width: 90%;
+        display: grid;
+        grid:1fr 1fr 1fr / 1fr;
+    }
+    .container>.join_details{
+        grid-area:1 span;
+    }
+    .container>.join_monetary{
+        border-radius: 0px;
+    }
+    .container>.join_why{
+        border-bottom-left-radius:20px;
+    }
+}
